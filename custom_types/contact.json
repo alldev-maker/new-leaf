@@ -1,0 +1,20 @@
+{
+  "Main": {
+    "lets_connect": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Let's connect",
+        "placeholder": "Let's connect"
+      }
+    },
+    "where_begin": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Where begin",
+        "placeholder": "So where shall we begin?"
+      }
+    }
+  }
+}

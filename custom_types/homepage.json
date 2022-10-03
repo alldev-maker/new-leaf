@@ -1,0 +1,45 @@
+{
+  "Main": {
+    "hero_content": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Hero Content",
+        "placeholder": "Hero Content"
+      }
+    },
+    "hannah_photo": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Hannah Photo"
+      }
+    },
+    "hannah_summary": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Hannah Summary",
+        "placeholder": "Hannah Summary"
+      }
+    }
+  },
+  "Naturopathy and herbalism": {
+    "practice_combines": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Practice combines",
+        "placeholder": "Practice combines"
+      }
+    },
+    "virtual_clinic": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Virtual Clinic"
+      }
+    }
+  }
+}

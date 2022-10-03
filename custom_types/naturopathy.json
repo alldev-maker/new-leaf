@@ -1,0 +1,96 @@
+{
+  "Main": {
+    "hero_content": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Hero Content",
+        "placeholder": "Hero Content"
+      }
+    }
+  },
+  "Clinical Nutrition": {
+    "what_is_naturopathy": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "What is Naturopathy",
+        "placeholder": "What is Naturopathy"
+      }
+    },
+    "what_naturopath_do": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "What Naturopath do",
+        "placeholder": "What Naturopath do"
+      }
+    }
+  },
+  "Let's get clinical: Nutrition": {
+    "get_clinical": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Get clinical",
+        "placeholder": "Get clinical"
+      }
+    },
+    "practice_medicine": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "title": {
+            "type": "Text",
+            "config": {
+              "label": "Title"
+            }
+          },
+          "content": {
+            "type": "Text",
+            "config": {
+              "label": "Content"
+            }
+          }
+        },
+        "label": "Practice Medicine"
+      }
+    }
+  },
+  "Areas of focus": {
+    "area_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Area Image"
+      }
+    },
+    "area_of_focus": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Area of Focus",
+        "placeholder": "Area Focus"
+      }
+    }
+  },
+  "Why New Leaf?": {
+    "new_leaf_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "New Leaf Image"
+      }
+    },
+    "why_new_leaf": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Why New Leaf",
+        "placeholder": "Why New Leaf"
+      }
+    }
+  }
+}

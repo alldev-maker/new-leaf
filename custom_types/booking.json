@@ -1,0 +1,34 @@
+{
+  "Main": {
+    "hero_content": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label": "Hero Content",
+        "placeholder": "Hero Content"
+      }
+    },
+    "appointment_types": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "title": {
+            "type": "Text",
+            "config": {
+              "label": "Title",
+              "placeholder": "Title"
+            }
+          },
+          "content": {
+            "type": "Text",
+            "config": {
+              "label": "Content",
+              "placeholder": "Content"
+            }
+          }
+        },
+        "label": "Appointment Types"
+      }
+    }
+  }
+}

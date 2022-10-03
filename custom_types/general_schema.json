@@ -1,0 +1,651 @@
+{
+  "Main": {
+    "availableservice": {
+      "type": "Text",
+      "config": {
+        "label": "availableService"
+      }
+    },
+    "medicalspecialty": {
+      "type": "Text",
+      "config": {
+        "label": "medicalSpecialty"
+      }
+    },
+    "currenciesaccepted": {
+      "type": "Text",
+      "config": {
+        "label": "currenciesAccepted"
+      }
+    },
+    "openinghours": {
+      "type": "Timestamp",
+      "config": {
+        "label": "openingHours"
+      }
+    },
+    "paymentaccepted": {
+      "type": "Text",
+      "config": {
+        "label": "paymentAccepted"
+      }
+    },
+    "additionalproperty": {
+      "type": "Text",
+      "config": {
+        "label": "additionalProperty"
+      }
+    },
+    "address": {
+      "type": "Text",
+      "config": {
+        "label": "address"
+      }
+    },
+    "aggregaterating": {
+      "type": "Number",
+      "config": {
+        "label": "aggregateRating"
+      }
+    },
+    "amenityfeature": {
+      "type": "Text",
+      "config": {
+        "label": "amenityFeature"
+      }
+    },
+    "branchcode": {
+      "type": "Number",
+      "config": {
+        "label": "branchCode"
+      }
+    },
+    "containedinplace": {
+      "type": "Text",
+      "config": {
+        "label": "containedInPlace"
+      }
+    },
+    "containsplace": {
+      "type": "Text",
+      "config": {
+        "label": "containsPlace"
+      }
+    },
+    "event": {
+      "type": "Text",
+      "config": {
+        "label": "event"
+      }
+    },
+    "faxnumber": {
+      "type": "Number",
+      "config": {
+        "label": "faxNumber"
+      }
+    },
+    "geo": {
+      "type": "GeoPoint",
+      "config": {
+        "label": "geo"
+      }
+    },
+    "geocontains": {
+      "type": "Text",
+      "config": {
+        "label": "geoContains"
+      }
+    },
+    "geocoveredby": {
+      "type": "Text",
+      "config": {
+        "label": "geoCoveredBy"
+      }
+    },
+    "geocovers": {
+      "type": "Text",
+      "config": {
+        "label": "geoCovers"
+      }
+    },
+    "geocrosses": {
+      "type": "Text",
+      "config": {
+        "label": "geoCrosses"
+      }
+    },
+    "geodisjoint": {
+      "type": "Text",
+      "config": {
+        "label": "geoDisjoint"
+      }
+    },
+    "geoequals": {
+      "type": "Text",
+      "config": {
+        "label": "geoEquals"
+      }
+    },
+    "geointersects": {
+      "type": "Text",
+      "config": {
+        "label": "geoIntersects"
+      }
+    },
+    "geooverlaps": {
+      "type": "Text",
+      "config": {
+        "label": "geoOverlaps"
+      }
+    },
+    "geotouches": {
+      "type": "Text",
+      "config": {
+        "label": "geoTouches"
+      }
+    },
+    "geowithin": {
+      "type": "Text",
+      "config": {
+        "label": "geoWithin"
+      }
+    },
+    "globallocationnumber": {
+      "type": "Number",
+      "config": {
+        "label": "globalLocationNumber"
+      }
+    },
+    "hasdrivethroughservice": {
+      "type": "Boolean",
+      "config": {
+        "default_value": false,
+        "label": "hasDriveThroughService"
+      }
+    },
+    "hasmap": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "hasMap",
+        "select": null
+      }
+    },
+    "isaccessibleforfree": {
+      "type": "Boolean",
+      "config": {
+        "default_value": false,
+        "label": "isAccessibleForFree"
+      }
+    },
+    "isicv4": {
+      "type": "Text",
+      "config": {
+        "label": "isicV4"
+      }
+    },
+    "keywords": {
+      "type": "Text",
+      "config": {
+        "label": "keywords"
+      }
+    },
+    "latitude": {
+      "type": "Text",
+      "config": {
+        "label": "latitude"
+      }
+    },
+    "longitude": {
+      "type": "Text",
+      "config": {
+        "label": "longitude"
+      }
+    },
+    "logo": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "logo"
+      }
+    },
+    "maximumattendeecapacity": {
+      "type": "Number",
+      "config": {
+        "label": "maximumAttendeeCapacity"
+      }
+    },
+    "openinghoursspecification": {
+      "type": "Text",
+      "config": {
+        "label": "openingHoursSpecification"
+      }
+    },
+    "photo": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "photo"
+      }
+    },
+    "publicaccess": {
+      "type": "Boolean",
+      "config": {
+        "default_value": false,
+        "label": "publicAccess"
+      }
+    },
+    "review": {
+      "type": "Text",
+      "config": {
+        "label": "review"
+      }
+    },
+    "slogan": {
+      "type": "Text",
+      "config": {
+        "label": "slogan"
+      }
+    },
+    "smokingallowed": {
+      "type": "Boolean",
+      "config": {
+        "default_value": false,
+        "label": "smokingAllowed"
+      }
+    },
+    "specialopeninghoursspecification": {
+      "type": "Text",
+      "config": {
+        "label": "specialOpeningHoursSpecification"
+      }
+    },
+    "telephone": {
+      "type": "Text",
+      "config": {
+        "label": "telephone"
+      }
+    },
+    "tourbookingpage": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "tourBookingPage",
+        "select": null
+      }
+    },
+    "healthplannetworkid": {
+      "type": "Text",
+      "config": {
+        "label": "healthPlanNetworkId"
+      }
+    },
+    "isacceptingnewpatients": {
+      "type": "Boolean",
+      "config": {
+        "default_value": false,
+        "label": "isAcceptingNewPatients"
+      }
+    },
+    "medicalorganization_specialty": {
+      "type": "Text",
+      "config": {
+        "label": "medicalOrganizationSpecialty"
+      }
+    },
+    "actionablefeedbackpolicy": {
+      "type": "Text",
+      "config": {
+        "label": "actionableFeedbackPolicy"
+      }
+    },
+    "physical_addres": {
+      "type": "Text",
+      "config": {
+        "label": "Physical addres"
+      }
+    },
+    "alumni": {
+      "type": "Text",
+      "config": {
+        "label": "alumni"
+      }
+    },
+    "areaserved": {
+      "type": "Text",
+      "config": {
+        "label": "areaServed"
+      }
+    },
+    "award": {
+      "type": "Text",
+      "config": {
+        "label": "award"
+      }
+    },
+    "brand": {
+      "type": "Text",
+      "config": {
+        "label": "brand"
+      }
+    },
+    "contactpoint": {
+      "type": "Text",
+      "config": {
+        "label": "contactPoint"
+      }
+    },
+    "correctionspolicy": {
+      "type": "Text",
+      "config": {
+        "label": "correctionsPolicy"
+      }
+    },
+    "department": {
+      "type": "Text",
+      "config": {
+        "label": "department"
+      }
+    },
+    "dissolutiondate": {
+      "type": "Date",
+      "config": {
+        "label": "dissolutionDate"
+      }
+    },
+    "diversitypolicy": {
+      "type": "Text",
+      "config": {
+        "label": "diversityPolicy"
+      }
+    },
+    "diversitystaffingreport": {
+      "type": "Link",
+      "config": {
+        "label": "diversityStaffingReport",
+        "allowTargetBlank": true,
+        "select": null
+      }
+    },
+    "duns": {
+      "type": "Text",
+      "config": {
+        "label": "duns"
+      }
+    },
+    "ethicspolicy": {
+      "type": "Text",
+      "config": {
+        "label": "ethicsPolicy"
+      }
+    },
+    "founder": {
+      "type": "Text",
+      "config": {
+        "label": "founder"
+      }
+    },
+    "foundingdate": {
+      "type": "Text",
+      "config": {
+        "label": "foundingDate"
+      }
+    },
+    "foundinglocation": {
+      "type": "Text",
+      "config": {
+        "label": "foundingLocation"
+      }
+    },
+    "funder": {
+      "type": "Text",
+      "config": {
+        "label": "funder"
+      }
+    },
+    "funding": {
+      "type": "Text",
+      "config": {
+        "label": "funding"
+      }
+    },
+    "hascredential": {
+      "type": "Text",
+      "config": {
+        "label": "hasCredential"
+      }
+    },
+    "hasmerchantreturnpolicy": {
+      "type": "Text",
+      "config": {
+        "label": "hasMerchantReturnPolicy"
+      }
+    },
+    "hasoffercatalog": {
+      "type": "Text",
+      "config": {
+        "label": "hasOfferCatalog"
+      }
+    },
+    "haspos": {
+      "type": "Text",
+      "config": {
+        "label": "hasPOS"
+      }
+    },
+    "interactionstatistic": {
+      "type": "Text",
+      "config": {
+        "label": "interactionStatistic"
+      }
+    },
+    "iso6523code": {
+      "type": "Text",
+      "config": {
+        "label": "iso6523Code"
+      }
+    },
+    "knowsabout": {
+      "type": "Text",
+      "config": {
+        "label": "knowsAbout"
+      }
+    },
+    "knowslanguage": {
+      "type": "Text",
+      "config": {
+        "label": "knowsLanguage"
+      }
+    },
+    "legalname": {
+      "type": "Text",
+      "config": {
+        "label": "legalName"
+      }
+    },
+    "leicode": {
+      "type": "Text",
+      "config": {
+        "label": "leiCode"
+      }
+    },
+    "location": {
+      "type": "Text",
+      "config": {
+        "label": "location"
+      }
+    },
+    "makesoffer": {
+      "type": "Text",
+      "config": {
+        "label": "makesOffer"
+      }
+    },
+    "member": {
+      "type": "Text",
+      "config": {
+        "label": "member"
+      }
+    },
+    "memberof": {
+      "type": "Text",
+      "config": {
+        "label": "memberOf"
+      }
+    },
+    "naics": {
+      "type": "Text",
+      "config": {
+        "label": "naics"
+      }
+    },
+    "nonprofitstatus": {
+      "type": "Text",
+      "config": {
+        "label": "nonprofitStatus"
+      }
+    },
+    "numberofemployees": {
+      "type": "Number",
+      "config": {
+        "label": "numberOfEmployees"
+      }
+    },
+    "ownershipfundinginfo": {
+      "type": "Text",
+      "config": {
+        "label": "ownershipFundingInfo"
+      }
+    },
+    "owns": {
+      "type": "Text",
+      "config": {
+        "label": "owns"
+      }
+    },
+    "parentorganization": {
+      "type": "Text",
+      "config": {
+        "label": "parentOrganization"
+      }
+    },
+    "publishingprinciples": {
+      "type": "Text",
+      "config": {
+        "label": "publishingPrinciples"
+      }
+    },
+    "seeks": {
+      "type": "Text",
+      "config": {
+        "label": "seeks"
+      }
+    },
+    "sponsor": {
+      "type": "Text",
+      "config": {
+        "label": "sponsor"
+      }
+    },
+    "suborganization": {
+      "type": "Text",
+      "config": {
+        "label": "subOrganization"
+      }
+    },
+    "taxid": {
+      "type": "Text",
+      "config": {
+        "label": "taxID"
+      }
+    },
+    "unnamedsourcespolicy": {
+      "type": "Text",
+      "config": {
+        "label": "unnamedSourcesPolicy"
+      }
+    },
+    "vatid": {
+      "type": "Text",
+      "config": {
+        "label": "vatID"
+      }
+    },
+    "additionaltype": {
+      "type": "Link",
+      "config": {
+        "label": "additionalType",
+        "allowTargetBlank": true,
+        "select": null
+      }
+    },
+    "alternatename": {
+      "type": "Text",
+      "config": {
+        "label": "alternateName"
+      }
+    },
+    "disambiguatingdescription": {
+      "type": "Text",
+      "config": {
+        "label": "disambiguatingDescription"
+      }
+    },
+    "identifier": {
+      "type": "Text",
+      "config": {
+        "label": "identifier"
+      }
+    },
+    "image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "image"
+      }
+    },
+    "mainentityofpage": {
+      "type": "Text",
+      "config": {
+        "label": "mainEntityOfPage"
+      }
+    },
+    "name": {
+      "type": "Text",
+      "config": {
+        "label": "name"
+      }
+    },
+    "potentialaction": {
+      "type": "Text",
+      "config": {
+        "label": "potentialAction"
+      }
+    },
+    "sameas": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "sameAs",
+        "select": null
+      }
+    },
+    "subjectof": {
+      "type": "Text",
+      "config": {
+        "label": "subjectOf"
+      }
+    },
+    "url": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "url",
+        "select": null
+      }
+    }
+  }
+}

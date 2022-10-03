@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Calibre';
+    font-weight: 300;
+    font-display: swap;
+    src: url(./fonts/calibre-web-light.woff) format('woff');
+  }
+
+  @font-face {
+    font-family: 'Reckless Neue';
+    font-weight: 300;
+    font-display: swap;
+    src: url(./fonts/reckless-neue-light.woff) format('woff');
+  }
+
+  body {
+    background-color: #ede6db;
+    font-family: 'Calibre';
+    padding-top: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.3;
+  }
+
+  @media screen and (min-width: 1024px) {
+    body {
+      font-size: 1.875rem;
+    }
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+.green-color > * {
+  color: #507453;
+}
+
+.white-color > * {
+  color: #ede6db;
+}
+
+.quote {
+  margin: 16px 0;
+  white-space: normal;
+  font-style: italic;
+  border-left: 3px solid #507453;
+  padding-left: 35px;
+}
+
+.pagination {
+  display: flex;
+  color: #507453;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.pagination li {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #507453;
+  margin: 0 10px;
+}
+.pagination li a {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.pagination .pagination-link__active {
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #507453;
+}
+
+.pagination .previous a,
+.pagination .next a {
+  color: #507453;
+  font-size: 24px;
+}
+.pagination .previous a:hover,
+.pagination .next a:hover {
+  color: black;
+}

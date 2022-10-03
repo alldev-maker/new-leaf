@@ -1,0 +1,130 @@
+{
+  "Main" : {
+    "people_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "People Image"
+      }
+    },
+    "meet_people" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "Meet People"
+      }
+    },
+    "our_philosophy" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "title" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "Title",
+              "placeholder" : "Title"
+            }
+          },
+          "content" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "Content",
+              "placeholder" : "Content"
+            }
+          }
+        },
+        "label" : "Our Philosophy"
+      }
+    }
+  },
+  "Meet Hannah" : {
+    "hannah_photo" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Hannah Photo"
+      }
+    },
+    "about_hannah" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "About Hannah",
+        "placeholder" : "About Hannah"
+      }
+    }
+  },
+  "Meet Kyoko" : {
+    "kyoko_photo" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Kyoko Photo"
+      }
+    },
+    "about_kyoko" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "About Kyoko",
+        "placeholder" : "About Kyoko"
+      }
+    }
+  },
+  "Meet Deebo" : {
+    "bronwyn_photo" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Bronwyn Photo"
+      }
+    },
+    "about_bronwyn" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "About Bronwyn",
+        "placeholder" : "About Bronwyn"
+      }
+    }
+  },
+  "Let's Connect" : {
+    "connect_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Connect Image"
+      }
+    },
+    "connect_content" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "Connect Content"
+      }
+    }
+  },
+  "Meet Sophia" : {
+    "sophia_photo" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Sophia Photo"
+      }
+    },
+    "about_sophia" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "About Sophia",
+        "placeholder" : "About Sophia"
+      }
+    }
+  }
+}

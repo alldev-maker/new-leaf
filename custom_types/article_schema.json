@@ -1,0 +1,799 @@
+{
+  "Main": {
+    "articlebody": {
+      "type": "Text",
+      "config": {
+        "label": "articleBody"
+      }
+    },
+    "articlesection": {
+      "type": "Text",
+      "config": {
+        "label": "articleSection"
+      }
+    },
+    "backstory": {
+      "type": "Text",
+      "config": {
+        "label": "backstory"
+      }
+    },
+    "pageend": {
+      "type": "Text",
+      "config": {
+        "label": "pageEnd"
+      }
+    },
+    "pagestart": {
+      "type": "Text",
+      "config": {
+        "label": "pageStart"
+      }
+    },
+    "pagination": {
+      "type": "Text",
+      "config": {
+        "label": "pagination"
+      }
+    },
+    "speakable": {
+      "type": "Text",
+      "config": {
+        "label": "speakable"
+      }
+    },
+    "wordcount": {
+      "type": "Number",
+      "config": {
+        "label": "wordCount"
+      }
+    }
+  },
+  "Properties from CreativeWork": {
+    "about": {
+      "type": "Text",
+      "config": {
+        "label": "about"
+      }
+    },
+    "abstract": {
+      "type": "Text",
+      "config": {
+        "label": "abstract"
+      }
+    },
+    "accessmode": {
+      "type": "Text",
+      "config": {
+        "label": "accessMode"
+      }
+    },
+    "accessmodesufficient": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "item": {
+            "type": "Text",
+            "config": {
+              "label": "item"
+            }
+          }
+        },
+        "label": "accessModeSufficient"
+      }
+    },
+    "accessibilityapi": {
+      "type": "Text",
+      "config": {
+        "label": "accessibilityAPI"
+      }
+    },
+    "accessibilitycontrol": {
+      "type": "Text",
+      "config": {
+        "label": "accessibilityControl"
+      }
+    },
+    "accessibilityfeature": {
+      "type": "Text",
+      "config": {
+        "label": "accessibilityFeature"
+      }
+    },
+    "accessibilityhazard": {
+      "type": "Text",
+      "config": {
+        "label": "accessibilityHazard"
+      }
+    },
+    "accessibilitysummary": {
+      "type": "Text",
+      "config": {
+        "label": "accessibilitySummary"
+      }
+    },
+    "accountableperson": {
+      "type": "Text",
+      "config": {
+        "label": "accountablePerson"
+      }
+    },
+    "acquirelicensepage": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "acquireLicensePage",
+        "select": null
+      }
+    },
+    "aggregaterating": {
+      "type": "Number",
+      "config": {
+        "label": "aggregateRating"
+      }
+    },
+    "alternativeheadline": {
+      "type": "Text",
+      "config": {
+        "label": "alternativeHeadline"
+      }
+    },
+    "archivedat": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "archivedAt",
+        "select": null
+      }
+    },
+    "assesses": {
+      "type": "Text",
+      "config": {
+        "label": "assesses"
+      }
+    },
+    "associatedmedia": {
+      "type": "Link",
+      "config": {
+        "select": "media",
+        "label": "associatedMedia"
+      }
+    },
+    "audience": {
+      "type": "Text",
+      "config": {
+        "label": "audience"
+      }
+    },
+    "audio": {
+      "type": "Link",
+      "config": {
+        "select": "media",
+        "label": "audio"
+      }
+    },
+    "author": {
+      "type": "Text",
+      "config": {
+        "label": "author"
+      }
+    },
+    "character": {
+      "type": "Text",
+      "config": {
+        "label": "character"
+      }
+    },
+    "award": {
+      "type": "Text",
+      "config": {
+        "label": "award"
+      }
+    },
+    "citation": {
+      "type": "Text",
+      "config": {
+        "label": "citation"
+      }
+    },
+    "comment": {
+      "type": "Text",
+      "config": {
+        "label": "comment"
+      }
+    },
+    "commentcount": {
+      "type": "Number",
+      "config": {
+        "label": "commentCount"
+      }
+    },
+    "conditionsofaccess": {
+      "type": "Text",
+      "config": {
+        "label": "conditionsOfAccess"
+      }
+    },
+    "contentlocation": {
+      "type": "Text",
+      "config": {
+        "label": "contentLocation"
+      }
+    },
+    "contentrating": {
+      "type": "Number",
+      "config": {
+        "label": "contentRating"
+      }
+    },
+    "contentreferencetime": {
+      "type": "Date",
+      "config": {
+        "label": "contentReferenceTime"
+      }
+    },
+    "contributor": {
+      "type": "Text",
+      "config": {
+        "label": "contributor"
+      }
+    },
+    "copyrightholder": {
+      "type": "Text",
+      "config": {
+        "label": "copyrightHolder"
+      }
+    },
+    "copyrightnotice": {
+      "type": "Text",
+      "config": {
+        "label": "copyrightNotice"
+      }
+    },
+    "copyrightyear": {
+      "type": "Number",
+      "config": {
+        "label": "copyrightYear"
+      }
+    },
+    "correction": {
+      "type": "Text",
+      "config": {
+        "label": "correction"
+      }
+    },
+    "countryoforigin": {
+      "type": "Text",
+      "config": {
+        "label": "countryOfOrigin"
+      }
+    },
+    "creativeworkstatus": {
+      "type": "Text",
+      "config": {
+        "label": "creativeWorkStatus"
+      }
+    },
+    "creator": {
+      "type": "Text",
+      "config": {
+        "label": "creator"
+      }
+    },
+    "credittext": {
+      "type": "Text",
+      "config": {
+        "label": "creditText"
+      }
+    },
+    "datecreated": {
+      "type": "Timestamp",
+      "config": {
+        "label": "dateCreated"
+      }
+    },
+    "datemodified": {
+      "type": "Timestamp",
+      "config": {
+        "label": "dateModified"
+      }
+    },
+    "datepublished": {
+      "type": "Timestamp",
+      "config": {
+        "label": "datePublished"
+      }
+    },
+    "discussionurl": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "discussionUrl",
+        "select": null
+      }
+    },
+    "editeidr": {
+      "type": "Text",
+      "config": {
+        "label": "editEIDR"
+      }
+    },
+    "editor": {
+      "type": "Text",
+      "config": {
+        "label": "editor"
+      }
+    },
+    "educationalalignment": {
+      "type": "Text",
+      "config": {
+        "label": "educationalAlignment"
+      }
+    },
+    "educationallevel": {
+      "type": "Text",
+      "config": {
+        "label": "educationalLevel"
+      }
+    },
+    "educationaluse": {
+      "type": "Text",
+      "config": {
+        "label": "educationalUse"
+      }
+    },
+    "encoding": {
+      "type": "Link",
+      "config": {
+        "select": "media",
+        "label": "encoding"
+      }
+    },
+    "encodingformat": {
+      "type": "Text",
+      "config": {
+        "label": "encodingFormat"
+      }
+    },
+    "exampleofwork": {
+      "type": "Text",
+      "config": {
+        "label": "exampleOfWork"
+      }
+    },
+    "expires": {
+      "type": "Date",
+      "config": {
+        "label": "expires"
+      }
+    },
+    "funder": {
+      "type": "Text",
+      "config": {
+        "label": "funder"
+      }
+    },
+    "funding": {
+      "type": "Text",
+      "config": {
+        "label": "funding"
+      }
+    },
+    "genre": {
+      "type": "Text",
+      "config": {
+        "label": "genre"
+      }
+    },
+    "haspart": {
+      "type": "Text",
+      "config": {
+        "label": "hasPart"
+      }
+    },
+    "headline": {
+      "type": "Text",
+      "config": {
+        "label": "headline"
+      }
+    },
+    "inlanguage": {
+      "type": "Text",
+      "config": {
+        "label": "inLanguage"
+      }
+    },
+    "interactionstatistic": {
+      "type": "Text",
+      "config": {
+        "label": "interactionStatistic"
+      }
+    },
+    "interactivitytype": {
+      "type": "Text",
+      "config": {
+        "label": "interactivityType"
+      }
+    },
+    "interpretedasclaim": {
+      "type": "Text",
+      "config": {
+        "label": "interpretedAsClaim"
+      }
+    },
+    "isaccessibleforfree": {
+      "type": "Boolean",
+      "config": {
+        "default_value": false,
+        "label": "isAccessibleForFree"
+      }
+    },
+    "isbasedon": {
+      "type": "Text",
+      "config": {
+        "label": "isBasedOn"
+      }
+    },
+    "isfamilyfriendly": {
+      "type": "Boolean",
+      "config": {
+        "default_value": false,
+        "label": "isFamilyFriendly"
+      }
+    },
+    "ispartof": {
+      "type": "Text",
+      "config": {
+        "label": "isPartOf"
+      }
+    },
+    "keywords": {
+      "type": "Text",
+      "config": {
+        "label": "keywords"
+      }
+    },
+    "learningresourcetype": {
+      "type": "Text",
+      "config": {
+        "label": "learningResourceType"
+      }
+    },
+    "license": {
+      "type": "Text",
+      "config": {
+        "label": "license"
+      }
+    },
+    "locationcreated": {
+      "type": "Text",
+      "config": {
+        "label": "locationCreated"
+      }
+    },
+    "mainentity": {
+      "type": "Text",
+      "config": {
+        "label": "mainEntity"
+      }
+    },
+    "maintainer": {
+      "type": "Text",
+      "config": {
+        "label": "maintainer"
+      }
+    },
+    "material": {
+      "type": "Text",
+      "config": {
+        "label": "material"
+      }
+    },
+    "materialextent": {
+      "type": "Text",
+      "config": {
+        "label": "materialExtent"
+      }
+    },
+    "mentions": {
+      "type": "Text",
+      "config": {
+        "label": "mentions"
+      }
+    },
+    "offers": {
+      "type": "Text",
+      "config": {
+        "label": "offers"
+      }
+    },
+    "pattern": {
+      "type": "Text",
+      "config": {
+        "label": "pattern"
+      }
+    },
+    "position": {
+      "type": "Text",
+      "config": {
+        "label": "position"
+      }
+    },
+    "producer": {
+      "type": "Text",
+      "config": {
+        "label": "producer"
+      }
+    },
+    "provider": {
+      "type": "Text",
+      "config": {
+        "label": "provider"
+      }
+    },
+    "publication": {
+      "type": "Text",
+      "config": {
+        "label": "publication"
+      }
+    },
+    "publisher": {
+      "type": "Text",
+      "config": {
+        "label": "publisher"
+      }
+    },
+    "publisherimprint": {
+      "type": "Text",
+      "config": {
+        "label": "publisherImprint"
+      }
+    },
+    "publishingprinciples": {
+      "type": "Text",
+      "config": {
+        "label": "publishingPrinciples"
+      }
+    },
+    "recordedat": {
+      "type": "Text",
+      "config": {
+        "label": "recordedAt"
+      }
+    },
+    "releasedevent": {
+      "type": "Text",
+      "config": {
+        "label": "releasedEvent"
+      }
+    },
+    "review": {
+      "type": "Text",
+      "config": {
+        "label": "review"
+      }
+    },
+    "schemaversion": {
+      "type": "Text",
+      "config": {
+        "label": "schemaVersion"
+      }
+    },
+    "sddatepublished": {
+      "type": "Date",
+      "config": {
+        "label": "sdDatePublished"
+      }
+    },
+    "sdlicense": {
+      "type": "Text",
+      "config": {
+        "label": "sdLicense"
+      }
+    },
+    "sdpublisher": {
+      "type": "Text",
+      "config": {
+        "label": "sdPublisher"
+      }
+    },
+    "size": {
+      "type": "Text",
+      "config": {
+        "label": "size"
+      }
+    },
+    "sourceorganization": {
+      "type": "Text",
+      "config": {
+        "label": "sourceOrganization"
+      }
+    },
+    "spatial": {
+      "type": "Text",
+      "config": {
+        "label": "spatial"
+      }
+    },
+    "spatialcoverage": {
+      "type": "Text",
+      "config": {
+        "label": "spatialCoverage"
+      }
+    },
+    "sponsor": {
+      "type": "Text",
+      "config": {
+        "label": "sponsor"
+      }
+    },
+    "teaches": {
+      "type": "Text",
+      "config": {
+        "label": "teaches"
+      }
+    },
+    "temporal": {
+      "type": "Timestamp",
+      "config": {
+        "label": "temporal"
+      }
+    },
+    "temporalcoverage": {
+      "type": "Timestamp",
+      "config": {
+        "label": "temporalCoverage"
+      }
+    },
+    "text": {
+      "type": "Text",
+      "config": {
+        "label": "text"
+      }
+    },
+    "thumbnailurl": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "thumbnailUrl",
+        "select": null
+      }
+    },
+    "timerequired": {
+      "type": "Text",
+      "config": {
+        "label": "timeRequired"
+      }
+    },
+    "translationofwork": {
+      "type": "Text",
+      "config": {
+        "label": "translationOfWork"
+      }
+    },
+    "translator": {
+      "type": "Text",
+      "config": {
+        "label": "translator"
+      }
+    },
+    "typicalagerange": {
+      "type": "Text",
+      "config": {
+        "label": "typicalAgeRange"
+      }
+    },
+    "usageinfo": {
+      "type": "Text",
+      "config": {
+        "label": "usageInfo"
+      }
+    },
+    "version": {
+      "type": "Text",
+      "config": {
+        "label": "version"
+      }
+    },
+    "video": {
+      "type": "Embed",
+      "config": {
+        "label": "video"
+      }
+    },
+    "workexample": {
+      "type": "Text",
+      "config": {
+        "label": "workExample"
+      }
+    },
+    "worktranslation": {
+      "type": "Text",
+      "config": {
+        "label": "workTranslation"
+      }
+    }
+  },
+  "Properties from Thing": {
+    "additionaltype": {
+      "type": "Text",
+      "config": {
+        "label": "additionalType"
+      }
+    },
+    "alternatename": {
+      "type": "Text",
+      "config": {
+        "label": "alternateName"
+      }
+    },
+    "description": {
+      "type": "Text",
+      "config": {
+        "label": "description"
+      }
+    },
+    "disambiguatingdescription": {
+      "type": "Text",
+      "config": {
+        "label": "disambiguatingDescription"
+      }
+    },
+    "identifier": {
+      "type": "Text",
+      "config": {
+        "label": "identifier"
+      }
+    },
+    "image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "image"
+      }
+    },
+    "mainentityofpage": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "mainEntityOfPage",
+        "select": null
+      }
+    },
+    "name": {
+      "type": "Text",
+      "config": {
+        "label": "name"
+      }
+    },
+    "potentialaction": {
+      "type": "Text",
+      "config": {
+        "label": "potentialAction"
+      }
+    },
+    "sameas": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "sameAs",
+        "select": null
+      }
+    },
+    "subjectof": {
+      "type": "Text",
+      "config": {
+        "label": "subjectOf"
+      }
+    },
+    "url": {
+      "type": "Link",
+      "config": {
+        "allowTargetBlank": true,
+        "label": "url",
+        "select": null
+      }
+    }
+  }
+}
